@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wu-Tang Name Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+<!-- Set up HTML as a form with 5 questions and a few multiple choice answers-->
+<!-- Radio buttons allow user to slect only one option-->
+ <!-- Benefits to not using <form> tag: -->
+
+    <h1>Wu-Tang Name Generator</h1>   
+    <p>Answer the five questions to discover your Wu-Tang inspired name.</p>    
+
+    <form id="surveyQuestions">
+
+        <!-- Question 1 -->
+         <!--Create Question, assign type, assign name, assign each specific value-->
+        <fieldset> 
+            <legend>1. How would you best describe yourself?</legend>
+
+            <label><input type="radio" name="personality" value="creative" required>Creative</label>
+            <label><input type="radio" name="personality" value="funny">Funny</label>
+            <label><input type="radio" name="personality" value="adaptable">Adaptable</label>
+        </fieldset> 
+
+        <!-- Question 2 -->
+        <fieldset> 
+            <legend>2. Choose an animal.</legend>
+
+            <label><input type="radio" name="animal" value="lion" required>Lion</label> 
+            <label><input type="radio" name="animal" value="owl">Owl</label> 
+             <label><input type="radio" name="animal" value="shark">Shark</label> 
+
+        </fieldset>
+
+
+        <!-- Question 3 -->
+         <fieldset> 
+            <legend>3. Choose an element.</legend>
+
+            <label><input type="radio" name="element" value="air" required>Air</label> 
+            <label><input type="radio" name="element" value="water">Water</label> 
+            <label><input type="radio" name="element" value="earth">Earth</label> 
+            <label><input type="radio" name="element" value="fire">Fire</label> 
+
+        </fieldset> 
+
+
+        <!-- Question 4 -->
+         <fieldset> 
+            <legend>4. What is your favorite season?</legend>
+
+            <label><input type="radio" name="season" value="fall" required>Fall</label> 
+            <label><input type="radio" name="season" value="winter">Winter</label> 
+            <label><input type="radio" name="season" value="spring">Spring</label>
+            <label><input type="radio" name="season" value="summer">Summer</label> 
+
+        </fieldset> 
+        
+
+        <!-- Question 5 -->
+         <fieldset> 
+            <legend>5. What is your favorite time of day?</legend>
+            <label><input type="radio" name="time" value="morning" required>Morning</label>
+            <label><input type="radio" name="time" value="afternoon">Afternoon</label>
+            <label><input type="radio" name="time" value="night">Night</label> 
+
+        </fieldset> 
+
+        <button type="submit" id="generateButton">Generate Name</button>
+    </form>
+
+    <section id="result" hidden> 
+        <h2>Your Wu-Tang Inspired Name</h2>
+        <p id="wu-tangName"></p>
+    </section>
+
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+</body>
+</html>
+
