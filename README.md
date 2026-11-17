@@ -1,22 +1,30 @@
-# 🎤 Week08 Bootcamp2019a Project: Wu-Tang Name Generator
+# Wu-Tang Name Generator
 
-### Goal: Create a Wu-Tang Clan name generator. Present the user with 5 survey questions and based on those answers randomly generate their name. The name doesn't have to be exact names, but Wu-Tang sounding-ish names. Ex: Childish Gambino (who actually got his name from a Wu-Tang name generator).
+Wu-Tang Name Generator is an interactive web application that generates a personalized Wu-Tang-inspired alias based on a user's answers to a series of questions. Answer the questions, discover your personality-inspired alter ego, and get your own Wu-Tang name!
 
-### How to submit your code for review:
+## Features
+- **Interactive Questionnaire**: Answer a series of questions about yourself.
+- **Personalized Name Generation**: Generate a unique alias based on your responses.
+- **Dynamic Results**: Display your generated Wu-Tang name directly in the application.
+- **Interactive Experienc**e: A fun, engaging way to discover your Wu-Tang-inspired alter ego.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## Tech Stack 
+- HTML
+- CSS
+- JavaScript
 
-Example:
+## App Preview
+<img width="1416" height="704" alt="Screenshot 2026-11-16 at 10 12 20 PM" src="https://github.com/user-attachments/assets/27ae4721-2923-4c5f-a1ca-20e1e664ade9" />
+
+## Getting Started
+Installation
+1. Clone the repository:
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+git clone https://github.com/CarlyJovon/wu-tang-name-generator.git
 ```
+
+2. Navigate to the project directory:
+```cd wu-tang
+```
+3. Open the project using a local development server, such as VS Code Live Server.
+4. Complete the questionnaire to generate your Wu-Tang-inspired name!
