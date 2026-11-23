@@ -2,6 +2,9 @@
 
 Wu-Tang Name Generator is an interactive web application that generates a personalized Wu-Tang-inspired alias based on a user's answers to a series of questions. Answer the questions, discover your personality-inspired alter ego, and get your own Wu-Tang name!
 
+## Live Demo
+**[Wu-Tang Generator](https://wu-tang-name-generator-ffvi.onrender.com)**
+
 ## Features
 - **Interactive Questionnaire**: Answer a series of questions about yourself.
 - **Personalized Name Generation**: Generate a unique alias based on your responses.
